@@ -86,7 +86,6 @@ namespace ProductMangement2023March.ViewModel
                 Product.ProductDescription = ProductDescription;
                 DataProvider.Ins.DB.SaveChanges();
 
-                SelectedItem.ProductName = ProductName;
             });
         }
     }
